@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pricing Grid</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div
+      class="flex items-center justify-center min-h-screen bg-[#e5e5e5] font-['Roboto']"
+    >
+      <!-- Inner Container -->
+      <div class="p-10 bg-[#F7FAFC] my-8 md:m-8">
+        <div class="flex flex-col items-center">
+          <h1 class="font-bold text-[#2d3748] text-[40px] text-center">
+            Pricing plans
+          </h1>
+          <p class="font-bold text-base text-[#2d3748] text-center mt-0.5">
+            Every plan includes 30 day free trial
+          </p>
+
+          <div
+            class="mb-8 flex flex-col md:flex-row md:flex-wrap space-y-2 mt-6 md:mt-10 md:w-full lg:justify-between md:justify-center md:gap-5 lg:gap-0 items-center"
+          >
+            <p class="md:m-0">
+              For more details on all our pricing visit
+              <span
+                class="underline decoration-blue-500 text-blue-500 cursor-pointer"
+                >here</span
+              >
+            </p>
+            <div
+              class="flex space-x-10 md:justify-between lg:justify-center lg:space-x-10 md:w-full lg:w-[500px]"
+            >
+              <div class="md:space-x-2">
+                <label for="plan">Plan</label>
+                <select
+                  name="plan"
+                  id="plan"
+                  class="inline-block w-[106px] text-white bg-[#CBD5E0] py-1 px-3 rounded-full focus:outline-none"
+                >
+                  <option value="monthly selected">Monthly</option>
+                  <option value="weekly">Weekly</option>
+                  <option value="yearly">Yearly</option>
+                </select>
+              </div>
+
+              <div class="md:space-x-2">
+                <label for="select-currency">Select Currency</label>
+                <select
+                  name="select-currency"
+                  id="select-currency"
+                  class="inline-block w-[90px] text-white bg-[#CBD5E0] py-1 px-3 rounded-full focus:outline-none"
+                >
+                  <option value="$ USD selected">$ USD</option>
+                  <option value="# NGN"># NGN</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="border w-full border-[#CBD5E0] mb-12"></div>
+        </div>
+        <div
+          class="flex flex-col md:flex-row space-y-5 md:space-y-0 lg:space-x-5 md:gap-5 lg:gap-16 lg:gap-y-5 xl:gap-0 items-center md:flex-wrap md:justify-center"
+        >
+          <!-- first card -->
+          <div class="shadow-md w-[360px]">
+            <div class="p-5 bg-white">
+              <div class="flex justify-between w-full h-9 items-center">
+                <h2 class="font-bold text-3xl text-[#2d3748]">Hobby</h2>
+                <img
+                  src="./vectors/Hobby.png"
+                  alt="Hobby vector"
+                  class="size-8"
+                />
+              </div>
+
+              <p class="text-black text-[50px] text-center font-bold my-6">
+                $10.00
+              </p>
+              <p class="text-base max-w-sm text-[#4A5568]">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem
+              </p>
+              <ul
+                class="text-black font-bold text-center space-y-5 mt-6 list-disc mb-2.5 list-inside marker:text-[#CBD5E0]"
+              >
+                <li>It is long a established</li>
+                <li>It is long a established</li>
+                <li>It is long a established</li>
+              </ul>
+            </div>
+
+            <div class="bg-[#EDF2F7] w-full text-center py-4">
+              <p class="font-bold text-[#2d3748]">Get started today</p>
+            </div>
+          </div>
+
+          <!-- Second card -->
+          <div class="shadow-md w-[360px] xl:mb-16">
+            <div class="p-5 bg-white">
+              <div class="flex justify-between w-full h-9 items-center">
+                <h2 class="font-bold text-3xl text-[#2d3748]">Professional</h2>
+                <img
+                  src="./vectors/Heart.png"
+                  alt="Heart vector"
+                  class="size-8"
+                />
+              </div>
+
+              <p class="text-black text-[50px] text-center font-bold my-6">
+                $30.00
+              </p>
+              <p class="text-base max-w-[300px] text-[#4A5568]">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem
+              </p>
+              <ul
+                class="text-black font-bold text-center space-y-5 mt-6 list-disc mb-2.5 list-inside marker:text-[#CBD5E0]"
+              >
+                <li>It is long a established</li>
+                <li>It is long a established</li>
+                <li>It is long a established</li>
+              </ul>
+            </div>
+
+            <div class="bg-[#EA0774] w-full text-center py-4">
+              <p class="font-bold text-[#F7FAFC]">Get started today</p>
+            </div>
+          </div>
+
+          <!-- Third card -->
+          <div class="shadow-md w-[360px]">
+            <div class="p-5 bg-white">
+              <div class="flex justify-between w-full h-9 items-center">
+                <h2 class="font-bold text-3xl text-[#2d3748]">Business</h2>
+                <img
+                  src="./vectors/Business.png"
+                  alt="Business vector"
+                  class="size-8"
+                />
+              </div>
+
+              <p class="text-black text-[50px] text-center font-bold my-6">
+                $45.00
+              </p>
+              <p class="text-base max-w-[300px] text-[#4A5568]">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem
+              </p>
+              <ul
+                class="text-black font-bold text-center space-y-5 mt-6 list-disc mb-2.5 list-inside marker:text-[#CBD5E0]"
+              >
+                <li>It is a long established</li>
+                <li>It is a long established</li>
+                <li>It is a long established</li>
+              </ul>
+            </div>
+
+            <div class="bg-[#EDF2F7] w-full text-center py-4">
+              <p class="font-bold text-[#2d3748]">Get started today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

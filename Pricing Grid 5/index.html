@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Pricing Grid</title>
+  </head>
+  <body>
+    <!-- Global Container -->
+    <div
+      class="flex items-center justify-center min-h-screen bg-[#FCFCFD] p-20 font-['Roboto']"
+    >
+      <div>
+        <div class="flex flex-col items-center">
+          <h1 class="font-bold text-6xl text-[#1a1a1a] mb-16 text-center">
+            Our Pricing
+          </h1>
+          <div class="flex space-x-4 items-center mb-10 text-center">
+            <p class="font-bold text-[18px] text-black">Billed Monthly</p>
+            <img src="images/Pill.svg" alt="toggle" />
+            <p class="font-bold text-[18px] text-[#7F56D9]">
+              Billed Yearly (Save 15%)
+            </p>
+          </div>
+        </div>
+
+        <!-- Card Container -->
+        <div
+          class="flex flex-col items-center md:gap-y-18 md:gap-x-10 xl:gap-0 md:items-start md:flex-row space-y-7 md:space-y-0 md:space-x-7 md:flex-wrap md:justify-center"
+        >
+          <!-- 1st Card -->
+          <div
+            class="p-4 rounded-md bg-white shadow md:self-stretch xl:self-start"
+          >
+            <div class="flex flex-col space-y-4">
+              <h2 class="font-bold text-[27px] text-[#1a1a1a]">Free</h2>
+              <p class="font-bold text-[27px] text-[#1a1a1a]">$0</p>
+              <p class="text-[18px] text-[#667085] max-w-xs">
+                Description of the tier list will go here, copy should be
+                concise and impactful.
+              </p>
+              <div class="border-b border-b-gray-200"></div>
+              <ul class="mt-2 space-y-4 flex flex-col">
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">Amazing feature one</p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Wonderful feature two
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Priceless feature three
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Splendid feature four
+                  </p>
+                </li>
+              </ul>
+              <div class="mt-2 flex justify-center">
+                <button
+                  class="font-bold py-2 px-6 w-full text-[18px] text-[#7F56D9] border rounded border-[#9E77ED]"
+                >
+                  Try for Free
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd Card -->
+          <div class="p-4 rounded-md bg-white shadow-lg shadow-gray-400/80">
+            <div class="flex flex-col space-y-4">
+              <h2 class="font-bold text-[27px] text-[#1a1a1a]">Pro</h2>
+              <p class="font-bold text-[27px] text-[#1a1a1a]">
+                $12 <span class="text-xs text-[#1a1a1a]">/ month</span>
+              </p>
+              <p class="text-[18px] text-[#667085] max-w-xs">
+                Description of the tier list will go here, copy should be
+                concise and impactful.
+              </p>
+              <div class="border-b border-b-gray-200"></div>
+              <p class="text-[18px] text-[#667085] mb-3">
+                Everything in the Free plan, plus
+              </p>
+              <ul class="mt-2 space-y-4 flex flex-col">
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">Amazing feature one</p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Wonderful feature two
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Priceless feature three
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Splendid feature four
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Delightful feature five
+                  </p>
+                </li>
+              </ul>
+              <div class="mt-2 flex justify-center">
+                <button
+                  class="font-bold py-2 px-6 w-full text-[18px] text-white bg-[#9E77ED] rounded"
+                >
+                  Subscribe Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd Card -->
+          <div class="p-4 rounded-md bg-white shadow">
+            <div class="flex flex-col space-y-4">
+              <h2 class="font-bold text-[27px] text-[#1a1a1a]">Enterprise</h2>
+              <p class="font-bold text-[27px] text-[#1a1a1a]">
+                Custom
+                <span class="text-xs text-[#1a1a1a]">yearly billing only</span>
+              </p>
+              <p class="text-[18px] text-[#667085] max-w-xs">
+                Description of the tier list will go here, copy should be
+                concise and impactful.
+              </p>
+              <div class="border-b border-b-gray-200"></div>
+              <p class="text-[18px] text-[#667085] mb-3">
+                Everything in the Free plan, plus
+              </p>
+              <ul class="mt-2 space-y-4 flex flex-col">
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">Amazing feature one</p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Wonderful feature two
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Priceless feature three
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Splendid feature four
+                  </p>
+                </li>
+                <li class="gap-3 items-center flex">
+                  <img src="images/Check icon.png" alt="Check Icon" class="" />
+                  <p class="text-[18px] text-[#1a1a1a]">
+                    Delightful feature five
+                  </p>
+                </li>
+              </ul>
+              <div class="mt-2 flex justify-center">
+                <button
+                  class="font-bold py-2 px-6 w-full text-[18px] text-[#7F56D9] border rounded border-[#9E77ED]"
+                >
+                  Contact Sales
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
